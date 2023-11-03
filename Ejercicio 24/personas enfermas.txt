@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'personas enfermas' FROM habitantes WHERE enfermedad = 'si'

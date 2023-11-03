@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'personas casadas y sin empleo' FROM habitantes WHERE estado_civil = 'casado' AND ocupacion = 'desempleado'

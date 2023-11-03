@@ -1,0 +1,6 @@
+SELECT departamentos.nombre AS 'departamento', municipios.nombre AS 'municipio'
+FROM departamentos
+INNER JOIN municipios ON
+departamentos.id=municipios.departamento_id
+WHERE cabeza_departamento = 1
+ORDER BY municipios.nombre DESC

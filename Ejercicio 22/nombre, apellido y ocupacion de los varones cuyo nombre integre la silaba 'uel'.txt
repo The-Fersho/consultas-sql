@@ -1,0 +1,1 @@
+SELECT nombre, apellido, ocupacion FROM habitantes WHERE nombre LIKE '%uel%' AND sexo = 'M' AND ocupacion IN ('trabajador', 'estudiante')

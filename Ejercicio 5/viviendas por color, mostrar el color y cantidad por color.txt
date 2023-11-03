@@ -1,0 +1,1 @@
+SELECT color, COUNT(*) AS cantidad FROM viviendas GROUP BY color ORDER BY cantidad DESC

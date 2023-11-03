@@ -1,0 +1,6 @@
+SELECT habitantes.nombre, apellido, sexo ,familias.nombre
+FROM habitantes
+INNER JOIN familias ON 
+familias.id=habitantes.familia_id
+WHERE familia_id = 271
+AND sexo = 'F'

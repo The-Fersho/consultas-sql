@@ -1,0 +1,1 @@
+SELECT * FROM habitantes WHERE apellido LIKE 'Cal%' AND sexo = 'F'

@@ -1,0 +1,1 @@
+SELECT * FROM viviendas WHERE comunidad_id = 121

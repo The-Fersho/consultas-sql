@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'Total de comunidades' FROM comunidades WHERE municipio_id IN (126,127,128,129,130,131,132,133,134,135,136,137)

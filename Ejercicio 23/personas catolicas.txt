@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'cantidad de catolicos' FROM habitantes WHERE religion = 'catolica'

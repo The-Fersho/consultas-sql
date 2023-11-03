@@ -1,0 +1,1 @@
+SELECT comunidad_id, COUNT(*) AS total FROM viviendas GROUP BY comunidad_id ORDER BY total DESC LIMIT 3

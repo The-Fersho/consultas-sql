@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'municipios', 'con poblacion mayor de 150000 suman' AS 'con poblacion mayor de 150000 suman', SUM(poblacion) AS 'habitantes' FROM municipios WHERE poblacion > 150000

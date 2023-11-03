@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS 'personas enfermas de gravedad' FROM habitantes WHERE enfermedad = 'si' AND nivel_enfermedad = 'grave'

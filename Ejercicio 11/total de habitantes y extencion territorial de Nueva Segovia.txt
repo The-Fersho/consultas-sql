@@ -1,0 +1,1 @@
+SELECT SUM(poblacion) AS 'Total de habitantes', SUM(extension) AS 'Total extension' FROM municipios WHERE departamento_id = 15
